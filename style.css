@@ -1,0 +1,58 @@
+body {
+    background-color: #FC5E55;
+}
+.container {
+    
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+main {
+
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards {
+    background-color: rgb(27, 187, 27);
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 {
+    background-color: rgb(141, 31, 141);
+    min-height: 300px;
+    width: 30%;
+}
+.card2 {
+    background-color: rgb(185, 83, 185);
+    min-height: 300px;
+    width: 30%;
+}
+.card3 {
+    background-color: rgb(240, 81, 240);
+    min-height: 300px;
+    width: 30%;
+}
+
+.herobox1 {
+    
+    flex: 2;
+}
+
+.herobox2 {
+  
+    flex: 1;
+}
