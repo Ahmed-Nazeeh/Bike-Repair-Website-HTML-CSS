@@ -70,6 +70,7 @@ main {
     padding: 30px 30px 20px 30px; 
     box-sizing: border-box;
     border-radius: 50px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.418);
 }
 
 .herobox1 {
@@ -85,6 +86,7 @@ h1 {
     font-size: 3.25rem;
     font-family: 'Playfair Display', serif;
     margin-bottom: 1rem;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.904);
 }
 
 h2 {
@@ -116,6 +118,7 @@ p {
     font-family: 'Playfair Display', serif;
     padding: 11px 25px;
     border-radius: 4px 100px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.418);
 }
 
 a.mybutton {
@@ -126,4 +129,8 @@ a.mybutton {
 
 .herobox2 img {
     border-radius: 50px;
+}
+
+nav a.mybutton {
+    margin-left: 10px;
 }
