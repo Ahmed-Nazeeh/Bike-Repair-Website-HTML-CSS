@@ -1,5 +1,5 @@
 html {
-    height: 100%;
+    
 }
 
 body {
@@ -27,7 +27,9 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
-    padding-bottom: 20px;}
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
 
 main {
     min-height: 300px;
@@ -131,6 +133,25 @@ a.mybutton {
     border-radius: 50px;
 }
 
-nav a.mybutton {
-    margin-left: 10px;
+
+
+.navbutton {
+    border: 1px solid white;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+    margin-top: 50px;
 }
